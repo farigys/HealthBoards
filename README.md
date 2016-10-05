@@ -39,12 +39,21 @@ Creates a list for each post that contains all word unigrams classified into 68 
 
 Data Files Description (Files are global and/or condition-based):
 1. LastPostWordPMI.csv/LastPostWordPMI1.csv: List of words that occured in last posts with their PMIs associated with last posts
+
 2. LastPostWordPMIBigram.csv: List of word bigrams that occured in last posts with their PMIs associated with last posts
+
 3. postDistribution.txt: Number of posts posted in individual hours of a day
+
 4. PsyLingPMI.csv: List of psycholinguistic classes from LIWC that occured in last posts with their PMIs associated with last posts
+
 5. UserInfo.txt: List of users with their demographics and post related info including number of posts and blogs, first and last posts etc. 
+
 6. FileLists.txt: List of threads that has been downloaded. The list only contains the root link of a thread that spans multiple pages.
+
 7. PagesCrawled.txt: List of threads that has been downloaded. The list only contains all the links of a thread that spans multiple pages.
+
 8. userPostInfo.txt: Lists of posts with the poster, condition, threadId, postId, time and type 
+
 9. topPosters: List of top five/ten posters in a forum who have not been active for at least a year but was active for more than a year after their first activity
+
 10. PsyLingCount.csv: Collection of posts that contains all word unigrams classified into 68 LIWC word categories for each post
